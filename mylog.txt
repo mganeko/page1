@@ -1,0 +1,22 @@
+mylog.txt
+---
+
+git init
+
+git remote add origin https://github.com/mganeko/page1.git
+
+git add README.md
+git add index.html
+git commit -m "first commit"
+
+git push origin master
+
+open http://mganeko.github.com/page1/ 
+--> NG
+
+
+※どうやら、gh-pagesというブランチが必要
+
+git push origin master:gh-pages
+open http://mganeko.github.com/page1/ 
+--> OK
