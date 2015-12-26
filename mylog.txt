@@ -20,3 +20,12 @@ open http://mganeko.github.com/page1/
 git push origin master:gh-pages
 open http://mganeko.github.com/page1/ 
 --> OK
+
+※作業ログもgitに追加
+git add mylog.txt
+git commit -m "add log"
+git push origin master
+（不要 git push origin master:gh-pages）
+
+
+
