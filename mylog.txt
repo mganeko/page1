@@ -28,4 +28,9 @@ git push origin master
 （不要 git push origin master:gh-pages）
 
 
+※logを更新して、反映
+git add .
+git commit -m "comments"
+git push origin master
+
 
